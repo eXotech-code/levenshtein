@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: #f4f4f4;
+  background-color: #161616;
+}
+
+:link, :visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
