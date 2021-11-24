@@ -1,0 +1,14 @@
+// Standard sizings of paddings, margins, etc...
+$standardPadding: 1rem;
+
+@mixin section-template($columns, $color) {
+    padding: $standardPadding $standardPadding 2rem;
+    display: grid;
+    grid-template-columns: $columns;
+    background-color: $color;
+}
+
+@mixin section-name-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

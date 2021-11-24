@@ -1,0 +1,56 @@
+// Most commonly used text formatings
+@mixin heading-01 {
+	font-size: 0.875rem;
+	line-height: 1.125em;
+}
+
+@mixin heading-02 {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.375em;
+}
+
+@mixin heading-05 {
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.5rem;
+}
+
+@mixin heading-05-semibold {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 2.5rem;
+}
+
+@mixin heading-06 {
+	font-size: 2.625em;
+	font-weight: 400;
+	line-height: 3.125em;
+}
+
+@mixin body-short-01 {
+	font-size: 0.875em;
+	line-height: 1.125em;
+}
+
+@mixin body-short-02 {
+	font-size: 1rem;
+	line-height: 1.375em;
+}
+
+@mixin body-long-01 {
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.25em;
+}
+
+@mixin body-long-02 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+@mixin label-01 {
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 1em;
+}

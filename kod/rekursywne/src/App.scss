@@ -1,0 +1,105 @@
+@import './styles/_colors';
+@import './styles/_text';
+@import './styles/_sizings';
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: $text-01-gray-100;
+  background-color: $ui-background-gray-100;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  font-weight: lighter;
+  margin: 0 0 2rem;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.numerical-result {
+  flex-grow: 2;
+}
+
+.name-section {
+  margin-bottom: $standardPadding*3;
+
+  p {
+    color: $text-05-gray-100;
+    margin: 0;
+  }
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  @include label-01;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  height: 2rem;
+  padding: $standardPadding/4 $standardPadding;
+  margin-top: $standardPadding/2;
+  @include body-long-01;
+  border: none;
+  background-color: $field-01-gray-100;
+  color: $text-01-gray-100;
+  box-shadow: 0 1px 0 #393939;
+
+  // This is used to prevent error message
+  // from changing position of other elements.
+  &:last-child {
+    position: relative;
+  }
+
+  &::placeholder {
+    color: $text-03-gray-100;
+  }
+}
+
+.login-error {
+  color: $text-error;
+  position: absolute;
+  margin: 0;
+}
+
+.login-form-button-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: $standardPadding*3.5;
+  margin-top: $standardPadding*10;
+}
+
+.login-form-box {
+  padding: $standardPadding;
+  background-color: $ui-background-gray-100;
+  color: $text-01-gray-100;
+  width: 20%;
+}
+
+.code-lines {
+  padding: 3rem;
+  height: 8rem;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+.selected {
+  display: inline-block;
+  background-color: #eb4034;
+}
