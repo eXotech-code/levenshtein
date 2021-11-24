@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{jlordiales::edit}
+Jose Luis~Ordiales Coscia.
+\newblock Easy to understand dynamic programming – edit distance, 2014.
+
+\bibitem{wiki::edit}
+Wikipedia.
+\newblock Edit distance --- {W}ikipedia{,} the free encyclopedia, 2021.
+
+\bibitem{wiki::levenshteinen}
+Wikipedia.
+\newblock Levenshtein distance --- {W}ikipedia{,} the free encyclopedia, 2021.
+
+\bibitem{wiki::levenshteinpl}
+Wikipedia.
+\newblock Odległość levenshteina --- {W}ikipedia{,} wolna encyklopedia,
+  2021.
+
+\bibitem{wiki::metricpl}
+Wikipedia.
+\newblock Przestrzeń metryczna --- {W}ikipedia{,} wolna encyklopedia, 2021.
+
+\end{thebibliography}
