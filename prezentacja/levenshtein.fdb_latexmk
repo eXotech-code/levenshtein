@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex levenshtein"] 1637784162 "levenshtein.aux" "levenshtein.bbl" "levenshtein" 1637784636
+["bibtex levenshtein"] 1637827778 "levenshtein.aux" "levenshtein.bbl" "levenshtein" 1637827862
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "levenshtein.aux" 1637784636 1771 1728dad81fb51f0f008bf04330b02677 "pdflatex"
+  "levenshtein.aux" 1637827862 1771 b3be3991fd28be8efd09c0461995407e "pdflatex"
   "references.bib" 1637617232 1537 46a855aac080d7938312208977b42a8c ""
   (generated)
   "levenshtein.blg"
   "levenshtein.bbl"
-["pdflatex"] 1637784635 "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.tex" "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.pdf" "levenshtein" 1637784636
-  "./media/dynamic.png" 1637784107 593861 b7184969f35f5c17c5691cc657534cd1 ""
-  "./media/recursive.png" 1637616214 302095 7cefc691f62eba44b5906bf95bfe76ab ""
-  "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.aux" 1637784636 1771 1728dad81fb51f0f008bf04330b02677 ""
-  "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.tex" 1637784634 9030 2a7c7dd788101bf1fc77825dc0c44d3c ""
+["pdflatex"] 1637827861 "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.tex" "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.pdf" "levenshtein" 1637827862
+  "./media/dynamic.png" 1637824523 637506 2dbbe5fff552ea01290b65df918a7b87 ""
+  "./media/recursive.png" 1637827702 404474 290fce9b3f46faa2bb64be5146f14da7 ""
+  "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.aux" 1637827862 1771 b3be3991fd28be8efd09c0461995407e ""
+  "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.tex" 1637827860 9042 353d3c551961e5bebcb4e5aa6a4b7834 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -77,14 +77,14 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1635484914 2724739 d5e93d5fce6cfeadc96f4dec13e03b81 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "levenshtein.aux" 1637784636 1771 1728dad81fb51f0f008bf04330b02677 "pdflatex"
-  "levenshtein.bbl" 1637784162 644 390591fcb52d6b718d887b24d5449ba6 "bibtex levenshtein"
-  "levenshtein.tex" 1637784634 9030 2a7c7dd788101bf1fc77825dc0c44d3c ""
-  "media/dynamic.png" 1637784107 593861 b7184969f35f5c17c5691cc657534cd1 ""
-  "media/recursive.png" 1637616214 302095 7cefc691f62eba44b5906bf95bfe76ab ""
+  "levenshtein.aux" 1637827862 1771 b3be3991fd28be8efd09c0461995407e "pdflatex"
+  "levenshtein.bbl" 1637827779 644 390591fcb52d6b718d887b24d5449ba6 "bibtex levenshtein"
+  "levenshtein.tex" 1637827860 9042 353d3c551961e5bebcb4e5aa6a4b7834 ""
+  "media/dynamic.png" 1637824523 637506 2dbbe5fff552ea01290b65df918a7b87 ""
+  "media/recursive.png" 1637827702 404474 290fce9b3f46faa2bb64be5146f14da7 ""
   (generated)
-  "levenshtein.log"
+  "levenshtein.pdf"
   "levenshtein.aux"
   "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.pdf"
+  "levenshtein.log"
   "/Users/jakub/Documents/University/Linear Algebra/Levenshtein/Paper/levenshtein.log"
-  "levenshtein.pdf"

@@ -93,30 +93,32 @@ class App extends React.Component {
     }
   }
 
-  // Function that compares distance according to Levenshtein's method.
-  /*
-   * This is the naive recursive approach - a direct
-   * implementation of definition of the Levenshtein
-   * distance metric.
-   */
+  /* Funkcja porównująca długości dwóch słów metodą Levenshteina.
+   * To jest implementacja rekursywna - bezpośrednie przełożenie
+   * definicji odległości Leveshteina na algorytm. */
   compareDistance(st1, st2) {
-    // Resulting distance
+    // Odległośc między słowami (d - distance).
     let d = 0;
 
-    /* If the length of string 1 is 0, then the distance between strings
-     * length of string 2. */
+    /* Jeżeli ciąg pierwszy jest pusty,
+     * to odległość między słowami wynosi
+     * długość słowa drugiego. */
     if (st1.length === 0) {return st2.length}
+    /* Jeżeli ciąg drugi jest pusty,
+    * to odległość między słowami wynosi
+    * długość słowa pierwszego. */
     if (st2.length === 0) {return st1.length}
 
-    /* If both strings start with the same char, call Levenshtein function
-     * recursively but without the first character. */
+    /* Jeżeli obydwa słowa zaczynają się od tej samej litery
+     * funkcja jest wywoływana rekursywnie dla tych słów
+     * bez pierwszego znaku. */
     if (st1[0] === st2[0]) {
       d = this.compareDistance(st1.substring(1), st2.substring(1));
     } else {
-      d = 1 + Math.min(
-        this.compareDistance(st1.substring(1), st2), // Insertion
-        this.compareDistance(st1, st2.substring(1)), // Deletion
-        this.compareDistance(st1.substring(1), st2.substring(1)) // Substitution
+      d = 1 + Math.min(                              // Wybierany jest najniższy koszt spośród:
+        this.compareDistance(st1.substring(1), st2), // Wstawianie
+        this.compareDistance(st1, st2.substring(1)), // Usuwanie
+        this.compareDistance(st1.substring(1), st2.substring(1)) // Zamiana
       );
     }
 
